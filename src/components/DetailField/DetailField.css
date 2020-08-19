@@ -1,0 +1,9 @@
+.field > label {
+  font-size: 12px;
+}
+
+.field > p {
+  font-size: 14px;
+  margin-top: 0;
+  font-weight: 500;
+}
