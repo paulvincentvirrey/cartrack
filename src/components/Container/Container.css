@@ -2,14 +2,10 @@
   box-sizing: border-box;
 }
 
-body {
-  font-family: Arial, Helvetica, sans-serif;
-}
-
 .flex-row {
   flex: 1 0 500px;
   box-sizing: border-box;
-  margin: 10px;
+  margin: auto;
 }
 
 /* Remove extra left and right margins, due to padding */

@@ -9,7 +9,7 @@ type CardProps = {
 
 const Card = ({ data }: CardProps) => {
   const { name, username, email, address, phone, website, company } = data;
-  const fullAddress =
+  const fullAddress: string =
     address.street +
     ", " +
     address.suite +

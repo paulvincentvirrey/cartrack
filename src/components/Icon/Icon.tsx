@@ -6,7 +6,7 @@ import ErrorOutlineIcon from "@material-ui/icons/ErrorOutline";
 
 type IconProps = {
   className: string;
-  value: string;
+  value: "email" | "phone" | "sms" | "error";
 };
 
 const Icon = ({ className, value }: IconProps) => {
